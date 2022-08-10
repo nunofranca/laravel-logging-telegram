@@ -1,0 +1,21 @@
+{
+    "name": "nunofranca/laravel-logging-telegram",
+    "description": "Send log messages to telegram",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nunofranca\\LaravelLoggingTelegram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nuno Franca",
+            "email": "contato@nunotech.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "telegram-bot/api": "^2.3"
+    }
+}
